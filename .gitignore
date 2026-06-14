@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environment & secrets (never commit)
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# Next.js
+.next/
+out/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+*.db
+
+# Debug / temp
+err.json
+test_query.js
+**/build_output.txt
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+frontend/build_log*.txt
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Vercel
+.vercel/
+
+# Uploads (user-generated content)
+backend/uploads/avatars/*
+!backend/uploads/avatars/.gitkeep
+
+# ML generated at training time
+ml/data/training_data.csv
+ml/reports/
+
+# Optional: trained model binary (uncomment if you retrain locally and prefer not to commit)
+# ml/models/*.joblib

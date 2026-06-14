@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "trained_at": "2026-06-09T14:30:20.100164+00:00",
+  "training_rows": 343,
+  "use_ml_in_production": true,
+  "baseline_metrics": {
+    "mae": 9.63768115942029,
+    "rmse": 10.928622173389272,
+    "within_5_pct": 24.637681159420293,
+    "r2": -0.24830194809471307
+  },
+  "random_forest_metrics": {
+    "mae": 0.8115942028985508,
+    "rmse": 2.776714772448951,
+    "within_5_pct": 95.65217391304348,
+    "r2": 0.9194155276803316
+  },
+  "mae_improvement_pct": 91.58,
+  "feature_importance": {
+    "people_ahead": 0.14727366731309027,
+    "position": 0.17920045611373855,
+    "queue_length": 0.0,
+    "avg_service_time_last_20": 0.4574782739574343,
+    "queue_avg_service_time": 0.07464218666058302,
+    "hour_of_day": 0.009557284885516042,
+    "day_of_week": 0.006086933723174655,
+    "max_capacity": 0.02636569673143559,
+    "priority_level_emergency": 0.030003086374442194,
+    "priority_level_normal": 0.05350720334719165,
+    "priority_level_priority": 0.0073012576439672105,
+    "location_type_clinic": 0.004490276391351594,
+    "location_type_hospital": 0.004093676858075099
+  }
+}

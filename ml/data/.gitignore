@@ -1,0 +1,7 @@
+# Generated at training time
+training_data.csv
+
+# Local Python env
+.venv/
+__pycache__/
+*.pyc

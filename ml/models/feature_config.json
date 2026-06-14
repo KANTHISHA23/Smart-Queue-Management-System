@@ -1,0 +1,32 @@
+{
+  "numeric_features": [
+    "people_ahead",
+    "position",
+    "queue_length",
+    "avg_service_time_last_20",
+    "queue_avg_service_time",
+    "hour_of_day",
+    "day_of_week",
+    "max_capacity"
+  ],
+  "categorical_features": [
+    "priority_level",
+    "location_type"
+  ],
+  "feature_names": [
+    "people_ahead",
+    "position",
+    "queue_length",
+    "avg_service_time_last_20",
+    "queue_avg_service_time",
+    "hour_of_day",
+    "day_of_week",
+    "max_capacity",
+    "priority_level_emergency",
+    "priority_level_normal",
+    "priority_level_priority",
+    "location_type_clinic",
+    "location_type_hospital"
+  ],
+  "target": "actual_wait_minutes"
+}
